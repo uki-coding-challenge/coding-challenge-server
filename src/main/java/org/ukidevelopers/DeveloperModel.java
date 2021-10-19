@@ -38,5 +38,13 @@ public class DeveloperModel {
     public void setTier2(boolean tier2) {
         this.tier2 = tier2;
     }
+
+    @Override
+    public String toString() {
+        return "Developer: {\"username\": " + username + ", " +
+                           "\"tier0\": " + tier0 + ", " +
+                           "\"tier1\": " + tier1 + ", " +
+                           "\"tier2\": " + tier2 + "}";
+    }
     
 }
